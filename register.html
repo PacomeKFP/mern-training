@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire d'inscription</title>
+</head>
+
+<body>
+    <h2>Veuillez remplir le formulaire pour vous inscrire</h2>
+
+    <form action="/" method="get" autocomplete="off">
+        <div>
+            <label for="name">Votre Nom</label>
+            <input autocomplete="off" name="name" id="name" type="text" placeholder="Your name here ...." />
+        </div>
+        <br />
+        <div>
+            <label for="surname">Votre Prenom</label>
+            <input name="surname" id="surname" type="text" placeholder="Your surname here ...." />
+        </div>
+        <br />
+        <div>
+            <label for="email">Votre email</label>
+            <input name="email" id="email" type="email" placeholder="Your email here ...." />
+        </div>
+        <br />
+        <div>
+            <label for="password">Votre mot de passe</label>
+            <input minlength="6" required name="password" id="password" type="password"
+                placeholder="Your mot de passe here ...." />
+        </div>
+        <br />
+        <div>
+            <label for="password_confirm">Confirmation</label>
+            <input minlength="6" required name="password_confirm" id="password_confirm" type="password"
+                placeholder="Confirm your password" />
+        </div>
+
+        <div>
+            <label for="check">Checkbox</label>
+            <input type="checkbox" name="check" value="1" id="">
+            <input type="checkbox" name="check" value="2" id="">
+            <input type="checkbox" name="check" value="3" id="">
+            <input type="checkbox" name="check" value="4" id="">
+        </div>
+        <div>
+            <label for="check">Radio</label>
+            <input type="radio" name="check" value="1" id="">
+            <input type="radio" name="check" value="2" id="">
+            <input type="radio" name="check" value="3" id="">
+            <input type="radio" name="check" value="4" id="">
+        </div>
+
+        <div>
+            <label for="country">Choisissez votre pays de reseidence</label>
+            <select name="country" id="country">
+                <option value="cm">Cameroun</option>
+                <option value="gb">Gabon</option>
+                <option value="ch">Chine</option>
+                <option value="fr" selected>France</option>
+            </select>
+        </div>
+
+        <br><br>
+        <div>
+            <button id="submit" type="submit">Soumettre</button>
+            <input type="reset" value="Reinitialiser">
+        </div>
+
+    </form>
+</body>
+
+</html>
