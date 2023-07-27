@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: sticky;
+  top: 0px;
+  height: 60px;
+  box-shadow: 10px 17px 15px -8px rgba(165,165,165,0.71);}
+nav {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  margin: 10px;
+}
+a {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+header nav h2 {
+  color: white;
+}
+
+header nav h2:hover{
+    cursor: pointer;
+}

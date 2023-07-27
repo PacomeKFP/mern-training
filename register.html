@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style2.css">
     <title>Formulaire d'inscription</title>
 </head>
 
@@ -11,28 +12,28 @@
     <h2>Veuillez remplir le formulaire pour vous inscrire</h2>
 
     <form action="/" method="get" autocomplete="off">
-        <div>
+        <div  class="input-fields">
             <label for="name">Votre Nom</label>
             <input autocomplete="off" name="name" id="name" type="text" placeholder="Your name here ...." />
         </div>
         <br />
-        <div>
+        <div  class="input-fields">
             <label for="surname">Votre Prenom</label>
             <input name="surname" id="surname" type="text" placeholder="Your surname here ...." />
         </div>
         <br />
-        <div>
+        <div class="input-fields">
             <label for="email">Votre email</label>
             <input name="email" id="email" type="email" placeholder="Your email here ...." />
         </div>
         <br />
-        <div>
+        <div class="input-fields">
             <label for="password">Votre mot de passe</label>
             <input minlength="6" required name="password" id="password" type="password"
                 placeholder="Your mot de passe here ...." />
         </div>
         <br />
-        <div>
+        <div class="input-fields">
             <label for="password_confirm">Confirmation</label>
             <input minlength="6" required name="password_confirm" id="password_confirm" type="password"
                 placeholder="Confirm your password" />

@@ -1,0 +1,15 @@
+.input-fields, select{
+    margin: 10px;
+    border: 1px solid red;
+}
+
+#title{
+    position: sticky;
+    top: 0px ;
+    left: 0px;
+    background-color: antiquewhite;
+    z-index: 1;
+}
+th{
+    background-color: antiquewhite;
+}
