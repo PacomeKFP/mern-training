@@ -1,0 +1,20 @@
+[✔] Creer la page HTML, ne contenant que le boutton d'ajout
+[✔] Designer le boutton d'ajout
+[✔] Creer une note-card et la designer HTML CSS
+
+[✔] Ecrire le script JS pour generer une note card -- createNote
+[✔] Ecrire la contion d'ajout d'une note au tableau
+[ ] ecrire la fonction de mise à jour d'une note 
+[ ] ecrire la fonction de stockage en localstorage (get-set)
+[ ] Ajouter la fonction de suppression de note (dbclick)
+
+noteModel = {
+    "id": int,
+    "content": str
+}
+storageModel = {
+    "lastId": int
+    "notes" : Array<noteModel>
+}
+
+chaque CUD action s'opere manuellement en front et en data (localstorage)
